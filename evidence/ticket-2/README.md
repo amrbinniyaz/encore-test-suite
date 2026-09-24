@@ -27,11 +27,11 @@ Expected total: `$120.00 + ($65.00 × 0.90) = $178.50`. Actual total is $12.00 t
 - [Saved Appium/pytest script](../../python/tests/test_save10_mixed_tiers.py), generated through BrowserStack Test Companion, then run with the BrowserStack Python SDK.
 - [Payment screen from the automated run](payment-screen-save10.png).
 - [Raw and parsed prices with calculated expectations](save10-mixed-tiers-evidence.json).
-- [BrowserStack public run — build 1](https://app-automate.browserstack.com/projects/Encore+Hackathon/builds/Encore+Hackathon+Ticket/1?public_token=6cf685aea634b4e545fb43be189adc6ff942e0be217c6e85ca9a4b927dbc4e20).
+- [BrowserStack public run — final build 2](https://app-automate.browserstack.com/projects/Encore+Hackathon/builds/Encore+Hackathon+Ticket/2?tab=tests&testListView=spec&public_token=6cf685aea634b4e545fb43be189adc6ff942e0be217c6e85ca9a4b927dbc4e20).
 
-The public build and its three pricing assertion failures were verified in a new Chrome Incognito window without signing in on 25 September 2026 (Europe/London). The run used Samsung Galaxy S23, Android 13.0. Pytest reported **1 failed**: the VIP price, discount amount and final total all contradicted the PRD; this was a product assertion failure rather than a navigation/setup failure. Standard pricing and subtotal matched.
+The final public build and its three pricing assertion failures were verified in a new Chrome Incognito window without signing in on 25 September 2026 (Europe/London). Both runs used Samsung Galaxy S23, Android 13.0. Final build 2 ran the pushed script at commit `c3d4ff590ccbb656c9addfb65ea93285a4e4df4b`; its BrowserStack source link resolves to that revision. Build duration: 47.28 seconds. The committed screenshot/JSON are from build 2. Pytest reported **1 failed**: the VIP price, discount amount and final total all contradicted the PRD; this was a product assertion failure rather than a navigation/setup failure. Standard pricing and subtotal matched.
 
-The test reads base prices and tiers from the live seat map, calculates expected values with Decimal, and saves JSON and a screenshot before reporting all pricing mismatches. It stops at Review & Pay: it does not finalize this booking. The app's payment is mocked per the PRD. One automated reproduction is evidence of this case, not an exhaustive regression assessment.
+The test reads base prices and tiers from the live seat map, calculates expected values with Decimal, and saves JSON and a screenshot before reporting all pricing mismatches. It stops at Review & Pay: it does not finalize this booking. The app's payment is mocked per the PRD. Two automated runs reproduced the same pricing violations. This is evidence of this case, not an exhaustive regression assessment.
 
 ## Reproduce
 
