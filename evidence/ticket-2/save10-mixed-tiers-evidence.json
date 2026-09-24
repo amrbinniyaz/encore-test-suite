@@ -1,0 +1,39 @@
+{
+  "event": "Neon Skyline (evt-01)",
+  "seats": {
+    "vip": {
+      "id": "seat-A1",
+      "tier": "vip",
+      "base_price": "120.00"
+    },
+    "standard": {
+      "id": "seat-C1",
+      "tier": "standard",
+      "base_price": "65.00"
+    }
+  },
+  "discount_code": "SAVE10",
+  "raw_payment_screen": {
+    "vip_line": "$108.00",
+    "std_line": "$58.50",
+    "subtotal": "$185.00",
+    "discount": "-$18.50",
+    "total": "USD 166.50"
+  },
+  "actual": {
+    "vip_line_price": "108.00",
+    "std_line_price": "58.50",
+    "subtotal": "185.00",
+    "discount_amount": "18.50",
+    "discount_is_negative": true,
+    "total": "166.50"
+  },
+  "expected_per_prd": {
+    "vip_line_price": "120.00",
+    "std_line_price": "58.50",
+    "subtotal": "185.00",
+    "discount_amount": "6.50",
+    "total": "178.50",
+    "rule": "SAVE10 = 10% off Standard only; VIP must not be discounted"
+  }
+}
