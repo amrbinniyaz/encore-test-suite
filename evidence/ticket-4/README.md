@@ -29,7 +29,7 @@ These are evidence-based recommendations, not an organizer answer key. A core pa
 - [Actual app frame at video timestamp 01:00](vip-payment-at-60s.png), extracted without altering content from the original BrowserStack recording. The timestamp is video elapsed time, not an additional 60-second payment wait.
 - [User-captured Failure Analysis test row](failure-analysis-test-row.png) — shows the failed test, Galaxy S23 / Android 13.0 and duration 1m 8s. The crop does not include the RCA diagnosis.
 - [RCA review](rca-review.md) — records the automatic diagnosis and our critical assessment.
-- **Attachment still required before final submission:** save the actual Test Companion Failure Analysis/RCA screenshot. It was displayed and captured in the assistant conversation, but an image file has not yet been added here. Do not mark the ticket's evidence package fully complete until this is attached.
+- [Actual IDE Failure Analysis and diagnosis screenshot](failure-analysis-rca.png) — supplied by the user, showing PRODUCT_BUG classification, the payment-hang hypothesis, build #4 and the failed test. This captures the diagnosis-only follow-up; the original native-library claim and its limitations are documented in the RCA review.
 
 ![Payment still processing at video 01:00](vip-payment-at-60s.png)
 

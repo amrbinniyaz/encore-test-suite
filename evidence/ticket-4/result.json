@@ -16,8 +16,9 @@
   "confirmation_wait_executed": false,
   "rca_classification": "PRODUCT_BUG",
   "rca_native_library_cause_verified": false,
-  "missing_evidence": [
-    "RCA screenshot file"
-  ],
-  "failure_analysis_row_screenshot": "failure-analysis-test-row.png"
+  "missing_evidence": [],
+  "failure_analysis_row_screenshot": "failure-analysis-test-row.png",
+  "rca_screenshot": "failure-analysis-rca.png",
+  "evidence_package_complete": true,
+  "team_form_submitted": false
 }

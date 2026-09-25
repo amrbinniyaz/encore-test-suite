@@ -19,6 +19,6 @@ The 100% figure means 1/1 tests in this build, not 100% of users or all booking 
 
 The diagnosis-only Test Companion follow-up agreed to preserve the original test and explicitly called the library linkage unconfirmed. Some follow-up limitations were generic (it did not know the timeout value, mock payment specification or saved screenshot). This report resolves those using the actual supplied source, PRD and session recording.
 
-## Screenshot status
+## Screenshot evidence
 
-The IDE Failure Analysis view and diagnosis were captured in the assistant conversation. Saving that actual screenshot as a repository artifact remains outstanding. This text is a transcription/review, not a substitute for the required screenshot.
+[User-captured IDE Failure Analysis and diagnosis](failure-analysis-rca.png) shows PRODUCT_BUG classification, the payment-hang hypothesis and the failed test in build #4 on Galaxy S23 / Android 13.0. The original PNG is preserved unchanged. The displayed chat is the diagnosis-only follow-up after reviewing the imported RCA, not the original missing-library explanation. The latter is transcribed and assessed above.
