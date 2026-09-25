@@ -27,6 +27,7 @@ These are evidence-based recommendations, not an organizer answer key. A core pa
 - [Public failing session and video](https://app-automate.browserstack.com/projects/Encore+Hackathon/builds/Encore+Hackathon+Ticket/4?tab=sessions&public_token=6cf685aea634b4e545fb43be189adc6ff942e0be217c6e85ca9a4b927dbc4e20&details=19bc316e8a3917fc908fa2ef7e19e598288a293a) — verified in a fresh Chrome Incognito window with Sign in and public view-only indicators. Video and logs loaded without authentication.
 - [Original supplied test](../../python/tests/test_vip_booking_payment.py) — unchanged; SHA-256 `105aba2d15e0ed9028bdd07ae6c616d85fc0f7e50a23b1b49c2df447f6496275`.
 - [Actual app frame at video timestamp 01:00](vip-payment-at-60s.png), extracted without altering content from the original BrowserStack recording. The timestamp is video elapsed time, not an additional 60-second payment wait.
+- [User-captured Failure Analysis test row](failure-analysis-test-row.png) — shows the failed test, Galaxy S23 / Android 13.0 and duration 1m 8s. The crop does not include the RCA diagnosis.
 - [RCA review](rca-review.md) — records the automatic diagnosis and our critical assessment.
 - **Attachment still required before final submission:** save the actual Test Companion Failure Analysis/RCA screenshot. It was displayed and captured in the assistant conversation, but an image file has not yet been added here. Do not mark the ticket's evidence package fully complete until this is attached.
 

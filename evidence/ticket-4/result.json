@@ -18,5 +18,6 @@
   "rca_native_library_cause_verified": false,
   "missing_evidence": [
     "RCA screenshot file"
-  ]
+  ],
+  "failure_analysis_row_screenshot": "failure-analysis-test-row.png"
 }
