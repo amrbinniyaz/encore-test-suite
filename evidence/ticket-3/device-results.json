@@ -1,0 +1,54 @@
+[
+  {
+    "model": "Samsung Galaxy S21",
+    "android": "11.0",
+    "coverage": "Android 11 phone",
+    "session_id": "abc40169f1d9904c944a3ee92a080a552ab46a19",
+    "rendered_date": "Thu, Oct 22, 2026 · 19:30",
+    "test_status": "passed",
+    "public_url": "https://app-automate.browserstack.com/projects/Encore+Hackathon/builds/Encore+Hackathon+Ticket/3?tab=sessions&public_token=6cf685aea634b4e545fb43be189adc6ff942e0be217c6e85ca9a4b927dbc4e20&details=abc40169f1d9904c944a3ee92a080a552ab46a19",
+    "screenshot": "s21-android11.jpeg",
+    "locale": null,
+    "timezone": null,
+    "device_hour_cycle_preference": null
+  },
+  {
+    "model": "Samsung Galaxy S24",
+    "android": "14.0",
+    "coverage": "Recent Android phone",
+    "session_id": "c1efc8faedfa3c23cd75d36bcbec468a36aa37eb",
+    "rendered_date": "Thu, Oct 22, 2026 · 7:30 PM",
+    "test_status": "passed",
+    "public_url": "https://app-automate.browserstack.com/projects/Encore+Hackathon/builds/Encore+Hackathon+Ticket/3?tab=sessions&public_token=6cf685aea634b4e545fb43be189adc6ff942e0be217c6e85ca9a4b927dbc4e20&details=c1efc8faedfa3c23cd75d36bcbec468a36aa37eb",
+    "screenshot": "s24-android14.jpeg",
+    "locale": null,
+    "timezone": null,
+    "device_hour_cycle_preference": null
+  },
+  {
+    "model": "Samsung Galaxy Tab S10 Plus",
+    "android": "15.0",
+    "coverage": "Tablet",
+    "session_id": "fd9422dc29d0b4b30a2252007831299488843bc3",
+    "rendered_date": "Thu, Oct 22, 2026 · 7:30 PM",
+    "test_status": "passed",
+    "public_url": "https://app-automate.browserstack.com/projects/Encore+Hackathon/builds/Encore+Hackathon+Ticket/3?tab=sessions&public_token=6cf685aea634b4e545fb43be189adc6ff942e0be217c6e85ca9a4b927dbc4e20&details=fd9422dc29d0b4b30a2252007831299488843bc3",
+    "screenshot": "tab-s10-android15.jpeg",
+    "locale": null,
+    "timezone": null,
+    "device_hour_cycle_preference": null
+  },
+  {
+    "model": "Google Pixel 8",
+    "android": "14.0",
+    "coverage": "Different manufacturer phone",
+    "session_id": "c55179b3470d28fa047a1cc600e28cb659fbf4a2",
+    "rendered_date": "Thu, Oct 22, 2026 · 7:30 PM",
+    "test_status": "passed",
+    "public_url": "https://app-automate.browserstack.com/projects/Encore+Hackathon/builds/Encore+Hackathon+Ticket/3?tab=sessions&public_token=6cf685aea634b4e545fb43be189adc6ff942e0be217c6e85ca9a4b927dbc4e20&details=c55179b3470d28fa047a1cc600e28cb659fbf4a2",
+    "screenshot": "pixel8-android14.jpeg",
+    "locale": null,
+    "timezone": null,
+    "device_hour_cycle_preference": null
+  }
+]
