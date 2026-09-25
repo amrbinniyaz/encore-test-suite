@@ -1,0 +1,22 @@
+{
+  "ticket": 4,
+  "classification": "App Bug",
+  "recommended_severity": "Critical",
+  "recommended_call": "Block the release until it's resolved",
+  "result": "failed",
+  "session_id": "19bc316e8a3917fc908fa2ef7e19e598288a293a",
+  "public_session_url": "https://app-automate.browserstack.com/projects/Encore+Hackathon/builds/Encore+Hackathon+Ticket/4?tab=sessions&public_token=6cf685aea634b4e545fb43be189adc6ff942e0be217c6e85ca9a4b927dbc4e20&details=19bc316e8a3917fc908fa2ef7e19e598288a293a",
+  "incognito_verified": true,
+  "device": "Samsung Galaxy S23",
+  "os": "Android 13.0",
+  "original_test_sha256": "105aba2d15e0ed9028bdd07ae6c616d85fc0f7e50a23b1b49c2df447f6496275",
+  "test_modified": false,
+  "failure_line": 57,
+  "payment_wait_seconds": 30,
+  "confirmation_wait_executed": false,
+  "rca_classification": "PRODUCT_BUG",
+  "rca_native_library_cause_verified": false,
+  "missing_evidence": [
+    "RCA screenshot file"
+  ]
+}
